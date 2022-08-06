@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Lato&family=Manrope&display=swap');
+
+body    {
+            font-family: 'Manrope', sans-serif;
+}
+
+.navbar-nav     {
+                    margin-left:auto;
+}
+
+.nav-item, .nav-btn       {
+                    line-height: 30px;
+                    margin-left: 2em;
+                    color: #141414;
+}
+
+.code-faster            {
+                            margin-top: 1.6em;
+                            font-weight: bolder;
+                            line-height: 1.6em;
+}
+
+.blue-color             {
+                            color: blue;
+}
+
+.top-image              {
+                            margin-top: 1.6em;
+}
+
+.custom-img             {
+                            width: 35em;
+                            float: right;
+                            border-radius: 100px 10px 10px 10px;
+                            height: 25em;
+}
+
+.top-btn                {
+                            margin-top: 1.5em;
+                            padding-left: 2em;
+                            padding-right: 2em;
+}
+
+.top-btn-right             {
+                                margin-left: 0.5em;
+}
+
+.top-section                {
+                                background-image: url('../Images/Frame208.png');
+                                background-size:contain;
+                                background-repeat: no-repeat;
+                                background-position:bottom;
+}
+
+.featured               {
+                            width: 6em;
+                            height: 6em;
+                            margin: 4em 1em 4em;
+}
+
+.hand1               {
+                        width: 6em;
+                        height: 5em;
+}
+
+.hand2               {
+                        width: 5em;
+                        height: 4em;
+}
+
+.hand3               {
+                        width: 4em;
+                        height: 4em;
+}
+
+.sixth-section          {
+                            background: linear-gradient(
+                                to bottom, 
+                                #111D55 0%,
+                                #111D55 50%,
+                                white 50%,
+                                white 100%
+                            );
+                            padding-bottom: 2em;
+}
+
+.footer-link            {
+                            text-decoration: none;
+                            color: white;
+}
+
+.listed-links           {
+                            list-style-type: none;
+                            padding: 1.5em;
+                            text-align: left;
+}
+
+.lesser-footer          {
+                            list-style-type: none;
+                            color: white;
+                            text-decoration: none;
+                            padding: 1em;
+                            font-size: 8px;
+}
+
+/* responsive CSS for index goes here */
+
+/* CSS for dashboard begins here */
+
+.search-navbar              {
+                               justify-content: right;
+}
+
+.sidenav-items  {
+                    width: 25em;
+                    height: 90em;
+                    padding-top: 20em;
+                    background-color: #111D55;
+                    color: white;
+                    position: fixed;
+                    top: 0px;
+                    left: 0px;
+                    z-index: index;
+}
+
+.sidenav-img            {
+                            width: 9em;
+                            position: fixed;
+                            top: 2em;
+                            left: 2.6em;
+                            margin-left: 2em;                        
+}
+
+.nav-link               {
+                            text-decoration: none;
+                            color: white;
+                            font-size: 1.2em;
+                            padding: 1.2em;
+}
+
+.nav-link:hover           {
+                                background-color: white;
+                                border: 1px solid white;
+                                color: #111D55;
+                                
+
+}
+
+.menu-list              {
+                            list-style-type: none;
+                            text-align: left;
+}
+
+.side-nav-list              {
+                                position: fixed;
+                                top: 8em;
+                                left: 1.2em;
+}
+
+.main-dashboard-header          {
+                                    background-image: url('/assets/Frame84.png');
+                                    background-position: center;
+                                    background-repeat: no-repeat;
+                                    background-size: cover;
+                                    width: max-content;
+                                    padding: 4em;
+}
+
+/* uncomment this later */
+/* section{display: none;} */
+
+td          {
+                width: 4em;
+                text-align: center;
+}
+
+table           {
+                    margin: auto;
+}
+
+.contained-codes            {
+                                border: none;
+                                box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.15);
+}
+
+.btn-interaction            {
+                                background-color: white;
+                                border: none;
+}
+
+.popular-codes              {
+                                /* padding: 2em; */
+                                margin-bottom: 1.2em;
+}
+
+.get-started-img            {
+                                display: block;
+                                margin: auto;
+                                width: 11em;
+                                height: 11em;
+                                margin-bottom: 2.5em;
+}
+
+.row-number-3               {
+                                background-color: #f1f1f1;
+                                padding-bottom: 2em;
+}
